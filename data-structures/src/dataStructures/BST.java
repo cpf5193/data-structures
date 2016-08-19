@@ -1,6 +1,5 @@
 package dataStructures;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class BST<T extends Comparable<T>> {

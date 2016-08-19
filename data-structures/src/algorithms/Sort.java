@@ -167,7 +167,6 @@ public class Sort<T extends Comparable <T>> {
     arr[j] = temp;
   }
 
-  @SuppressWarnings("unchecked")
   public T[] heapSort(T[] arr) {
     BinaryMaxHeap<T> heap = new BinaryMaxHeap<T>(arr);
     T[] sortedArray = arr.clone();
